@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 
 import Board from "./Components/Board/Board";
 
 import "./App.css";
-import Editable from "./Components/Editabled/Editable";
-import { CustomDataContextProvider, useCustomDataContext } from "./useCustomContext";
+import { useCustomDataContext } from "./useCustomContext";
 
 function App() {
   const [settings,setOpenSetting] = useState(false)

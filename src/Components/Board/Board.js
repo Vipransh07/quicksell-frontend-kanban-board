@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { MoreHorizontal } from "react-feather";
 
 import Card from "../Card/Card";
@@ -17,7 +17,6 @@ const priorityMapper = {
 }
 
 function Board(props) {
-  const [showDropdown, setShowDropdown] = useState(false);
   const {grouping} = useCustomDataContext()
 
   return (

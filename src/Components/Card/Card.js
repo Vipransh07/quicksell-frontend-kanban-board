@@ -1,10 +1,8 @@
-import React, { useState } from "react";
-import { CheckSquare, Clock, MoreHorizontal } from "react-feather";
+import React from "react";
+import { Clock } from "react-feather";
 
-import Dropdown from "../Dropdown/Dropdown";
 
 import "./Card.css";
-import CardInfo from "./CardInfo/CardInfo";
 
 
 
