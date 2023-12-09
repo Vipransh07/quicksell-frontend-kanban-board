@@ -25,6 +25,7 @@ function CardInfo(props) {
     "#240959",
   ];
 
+
   const [selectedColor, setSelectedColor] = useState();
   const [values, setValues] = useState({
     ...props.card,

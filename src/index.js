@@ -2,10 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
+import { CustomDataContextProvider } from "./useCustomContext";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+   <CustomDataContextProvider> <App /></CustomDataContextProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );

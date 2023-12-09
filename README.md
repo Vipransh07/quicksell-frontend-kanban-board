@@ -1,3 +1,9 @@
-# Kanban Board
+# Vipransh Tyagi 20BBS0151
 
-![kanban-1](https://user-images.githubusercontent.com/89729177/134899036-5f23afc8-977d-4d17-b48a-334d3d6ab2b1.png)
+## Task for quicksell frontend role - VIT Vellore
+
+### Steps to run:
+
+1. clone/fork the repo
+2. `npm i`
+3. `npm run start`
